@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './scss/custom.scss';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Banking from './pages/Banking';
