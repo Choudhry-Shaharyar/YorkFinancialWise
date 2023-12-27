@@ -1,10 +1,11 @@
 import {Navbar, Container, Nav, NavDropDown} from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Navigation() {
   return (
     <>
       
-      <Navbar bg="light" data-bs-theme="light">
+      <Navbar className="navbar-custom">
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Nav className="me-auto">
