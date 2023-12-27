@@ -1,14 +1,14 @@
 import Navbar from '../components/Navbar'
 import '../App.css';
 
-
-export default function HomePage(){
+export default function AboutPage(){
     return (
         <>
             <Navbar />
             <div className='titlepage'>
-            <h2>Home welcome page</h2>
+            <h2>About us</h2>
             </div>
+
 
         </>
     )

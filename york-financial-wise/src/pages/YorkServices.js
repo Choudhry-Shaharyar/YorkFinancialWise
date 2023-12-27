@@ -1,15 +1,13 @@
 import Navbar from '../components/Navbar'
 import '../App.css';
 
-
-export default function HomePage(){
+export default function ServicesPage(){
     return (
         <>
             <Navbar />
             <div className='titlepage'>
-            <h2>Home welcome page</h2>
+            <h2>York services</h2>
             </div>
-
         </>
     )
 }

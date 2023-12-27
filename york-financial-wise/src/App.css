@@ -12,7 +12,23 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.header{
+  background-color: #e31837;
+  padding: 1rem;
+}
+.header h1{
+  color: #ffff;
+  font-size:24px;
+  font-weight:600
 
+}
+.titlepage{
+  padding: 1rem 2rem 0 2rem;
+}
+
+.video{
+  padding: 2rem;
+} 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +42,9 @@
 
 .App-link {
   color: #61dafb;
+}
+.navbar {
+  background-color: rgb(0, 223, 0);
 }
 
 @keyframes App-logo-spin {
