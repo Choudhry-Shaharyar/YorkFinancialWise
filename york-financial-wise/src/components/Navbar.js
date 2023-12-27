@@ -10,7 +10,7 @@ function Navigation() {
 
 
 
-        <Navbar bg="light" data-bs-theme="light" expand='sm'>
+        <Navbar className='navbar-custom' expand='sm'>
           <Container>
             <Navbar.Brand href="/home">York University</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
