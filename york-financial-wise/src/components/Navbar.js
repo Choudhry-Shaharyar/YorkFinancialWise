@@ -93,7 +93,7 @@ function Navigation() {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="/home">Home</Nav.Link>
-                <Nav.Link href="/learning">E-Learn</Nav.Link>
+                <Nav.Link href="/learning">Learning</Nav.Link>
                 <Nav.Link href="/banking">Banking</Nav.Link>
                 <Nav.Link href="/services">Services</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
