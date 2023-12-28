@@ -5,6 +5,9 @@ export default function LearningPage() {
     return (
         <>
             <Navbar />
+
+
+            
             <div className='titlepage'>
                 <h2>Learning</h2>
                 <h3>Quiz and videos</h3>
