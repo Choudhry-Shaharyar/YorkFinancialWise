@@ -1,4 +1,6 @@
 import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+
 import '../App.css';
 import { useTranslation } from 'react-i18next';
 import { useEffect } from 'react';
@@ -18,7 +20,8 @@ export default function HomePage() {
     return (
         
         <>
-            <Navbar />
+        <div className='content-container'>
+        <Navbar />
             <div className='titlepage'>
             <h2>
                 {t('greeting')}
@@ -27,6 +30,12 @@ export default function HomePage() {
                 {/* Browser Language: {lng} */}
             </span>
             </div>
+        </div>
+           
+            {/* <div className='footer'> */}
+            <Footer className='footer-pin' />
+            {/* </div> */}
+
             
 
         </>

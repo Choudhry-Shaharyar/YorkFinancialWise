@@ -1,7 +1,28 @@
 .App {
   text-align: center;
-}
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
 
+}
+.footer-pin{
+  position: relative;
+  left: 0;
+  bottom: 0;
+
+}
+.content-container{
+  min-height: calc(100vh - 34px);
+
+}
+#social-btn{
+  /* color: red; */
+  background-color: rgb(255, 116, 116);
+}
+#social-btn2{
+  color: red;
+  /* background-color: red; */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -19,6 +40,7 @@
   /* overflow: auto;  */
 
 }
+
 .lngDropdown{
    float: right;
 } 
