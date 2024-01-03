@@ -39,6 +39,7 @@ export default function LearningPage() {
                 }}
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
+                allowTouchMove={false}
 
             >
                 <SwiperSlide>
