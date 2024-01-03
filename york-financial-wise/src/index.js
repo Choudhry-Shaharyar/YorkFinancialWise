@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './scss/custom.scss';
-
+import './i18n';
 function HelloWorld(){
   return <h1 className='greeting'>Hello Buddy!</h1>
 }

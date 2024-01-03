@@ -12,6 +12,22 @@ body {
   .container a:hover{
     color: #f8f9fa;
   }
+  .dropdown-custom{
+    display: flex;
+    background-color: #e31837;
+    padding: 12px;;
+  }
+  .dropdown-custom button{
+    background-color: red($color: #000000);
+  }
+
+   #dropdown-basic{
+    color: white;
+   }
+  .dropdown-item-custom{
+    background-color: black;
+  }
+  
 // Import Bootstrap to generate the classes with your custom color
 @import "node_modules/bootstrap/scss/bootstrap";
 

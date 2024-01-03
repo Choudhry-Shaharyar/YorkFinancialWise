@@ -6,7 +6,6 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "../carousel.css";
-
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function LearningPage() {
@@ -23,7 +22,7 @@ export default function LearningPage() {
                 grabCursor={true}
                 touchRatio={1}
                 edgeSwipeDetection={true}
-                edgeSwipeThreshold={20}
+                edgeSwipeThreshold={50}
                 centeredSlides={true}
                 slidesPerView={"auto"}
                 coverflowEffect={{
