@@ -24,29 +24,44 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    
     max-width: 640px; 
     width: 100%; 
     margin: auto; 
-  }
+    overflow: hidden; /* Hide overflow to prevent scrollbars */
+}
   
-  .swiper-slide .video {
-    position: relative;
-    width: 100%; 
-    
-    padding-top: 56.25%; 
-    overflow: hidden; 
-  }
+.swiper-slide .video {
+  position: relative;
+  width: 100%; 
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden; /* Hide overflow inside the video container */
+}
   
   /* Iframe styles */
   .swiper-slide .video iframe {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%; 
-    height: 100%; 
-    border: none; 
-  }
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
+/* Media Queries for different screen sizes */
+@media screen and (max-width: 768px) {
+  .swiper-slide .video {
+      padding-top: 75%; /* Adjust aspect ratio for smaller screens */
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .swiper-slide .video {
+      padding-top: 65%; /* Adjust for medium screens */
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .swiper-slide .video {
+      padding-top: 56.25%; /* Standard for larger screens */
+  }
+}

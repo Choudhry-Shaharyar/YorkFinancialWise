@@ -6,6 +6,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "../carousel.css";
+
 import { EffectCoverflow, Pagination } from "swiper/modules";
 
 export default function LearningPage() {
@@ -22,7 +23,7 @@ export default function LearningPage() {
                 grabCursor={true}
                 touchRatio={1}
                 edgeSwipeDetection={true}
-                edgeSwipeThreshold={50}
+                edgeSwipeThreshold={20}
                 centeredSlides={true}
                 slidesPerView={"auto"}
                 coverflowEffect={{
@@ -38,26 +39,27 @@ export default function LearningPage() {
                 }}
                 modules={[EffectCoverflow, Pagination]}
                 className="mySwiper"
+                allowTouchMove={false}
 
             >
                 <SwiperSlide>
                 <div className='video'>
                 <script src="https://eclass.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-                    <iframe src="https://eclass.h5p.com/content/1292151044103452798/embed" aria-label="test" max-width="630" height="405" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+                    <iframe title="Learning Video 1" src="https://eclass.h5p.com/content/1292151044103452798/embed" aria-label="test" max-width="630" height="405" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
                 </div>
                 
                 </SwiperSlide>
                 <SwiperSlide>
                 <div className='video'>
                 <script src="https://eclass.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-                    <iframe src="https://eclass.h5p.com/content/1292151044103452798/embed" aria-label="test" width="630" height="405" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+                    <iframe title="Learning Video 2" src="https://eclass.h5p.com/content/1292151044103452798/embed" aria-label="test" width="630" height="405" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
                 </div>
                 </SwiperSlide>
                 
                 <SwiperSlide>
                 <div className='video'>
                 <script src="https://eclass.h5p.com/js/h5p-resizer.js" charset="UTF-8"></script>
-                    <iframe src="https://eclass.h5p.com/content/1292151044103452798/embed" aria-label="test" width="630" height="405" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+                    <iframe title="Learning Video 3" src="https://eclass.h5p.com/content/1292151044103452798/embed" aria-label="test" width="630" height="405" frameborder="0" allowfullscreen="allowfullscreen" allow="autoplay *; geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
                 </div>
                 </SwiperSlide>
     
