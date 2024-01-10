@@ -64,7 +64,11 @@ export default function LearningPage() {
 
             </Swiper>
 
-            
+            <div>
+                <button className='btn3'>
+                    Hi
+                </button>
+            </div>
 
             
 

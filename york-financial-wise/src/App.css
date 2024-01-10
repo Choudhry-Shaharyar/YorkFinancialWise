@@ -27,7 +27,18 @@
   height: 40vmin;
   pointer-events: none;
 }
+.studentIMG{
+  width: 1400px;
+  height: 900px;
+  allign: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+  /* margin-bottom: -250px; */
+  margin-left: -80px;
 
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -78,6 +89,10 @@
   padding-left: 20px;
   padding-top: 8px;
   padding-bottom: 8px;
+  size: 10px;
+}
+#btn-lang h1{
+  size: 10px;
 }
 #btn-lang:hover{
   background-color: rgb(242, 242, 242);
