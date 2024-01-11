@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .main {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E1DFDC;
+    padding: 2rem;
+    border: 5px solid white;
+  }
+  
+  .titlepage {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .video {
+    width: 100%;
+    position: relative;
+    padding-bottom: 60%; /* Adjusted for video control bar */
+    height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background: #E1DFDC;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid white;
+  }
+  
